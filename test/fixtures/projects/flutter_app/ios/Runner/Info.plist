@@ -1,0 +1,4 @@
+<plist version="1.0"><dict>
+  <key>NSCameraUsageDescription</key><string>Photos de la météo</string>
+  <key>NSLocationWhenInUseUsageDescription</key><string>Météo locale</string>
+</dict></plist>

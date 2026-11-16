@@ -1,0 +1,1870 @@
+{
+  "@@locale": "fr",
+  "appTitle": "LaunchPilot",
+  "appTagline": "Préparer, contrôler, construire, publier.",
+  "navGroupProject": "Projet",
+  "navGroupTools": "Outils",
+  "navGroupApp": "Application",
+  "navHome": "Accueil",
+  "navDetection": "Détection",
+  "navPublication": "Publication",
+  "navChecklist": "Checklist",
+  "navTerminal": "Terminal",
+  "navAgent": "Agent",
+  "navContent": "Contenus",
+  "navReports": "Rapports",
+  "navSettings": "Paramètres",
+  "navHelp": "Aide",
+  "navOpenMenu": "Ouvrir le menu de navigation",
+  "navShortcutTooltip": "{label} (Ctrl+{key})",
+  "@navShortcutTooltip": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "commonCancel": "Annuler",
+  "commonDelete": "Supprimer",
+  "demoTag": "DÉMO",
+  "demoBannerTitle": "Mode démo",
+  "demoBannerMessage": "Données fictives, clairement identifiées. Aucun projet réel n'est lu ni modifié.",
+  "demoBannerExit": "Quitter le mode démo",
+  "laterPhaseTooltip": "Disponible dans une phase ultérieure (phase {phase})",
+  "@laterPhaseTooltip": {
+    "placeholders": {
+      "phase": {
+        "type": "int"
+      }
+    }
+  },
+  "phaseBadge": "Phase {phase}",
+  "@phaseBadge": {
+    "placeholders": {
+      "phase": {
+        "type": "int"
+      }
+    }
+  },
+  "percentValue": "{percent} %",
+  "@percentValue": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "levelAnalyze": "Analyser",
+  "levelAnalyzeDesc": "Lecture seule. Aucun fichier n'est modifié.",
+  "levelPrepare": "Préparer",
+  "levelPrepareDesc": "Génère textes et configurations, avec un aperçu avant toute écriture.",
+  "levelBuild": "Construire",
+  "levelBuildDesc": "Compile le projet et crée les livrables.",
+  "levelPublish": "Publier",
+  "levelPublishDesc": "Envoie vers un store ou un hébergeur, uniquement après une confirmation explicite.",
+  "statusTodo": "À faire",
+  "statusRunning": "En cours",
+  "statusSucceeded": "Réussi",
+  "statusFailed": "Échec",
+  "statusNeedsValidation": "Validation requise",
+  "statusPedagogical": "Étape pédagogique",
+  "homeTitle": "Bienvenue dans LaunchPilot",
+  "homeSubtitle": "Ouvre un projet pour l'analyser, préparer sa publication et comprendre chaque étape.",
+  "homeOpenProject": "Ouvrir un dossier de projet",
+  "homeOpenProjectHint": "Choisis le dossier de ton projet. L'analyse se fait ensuite sur ta demande, en lecture seule.",
+  "homeRecentTitle": "Projets récents",
+  "homeRecentEmptyTitle": "Aucun projet pour l'instant",
+  "homeRecentEmptyMessage": "Les projets ouverts apparaîtront ici avec leur progression, leurs favoris et leur date de dernière ouverture.",
+  "homeResumeTitle": "Reprendre une session",
+  "homeResumeEmptyTitle": "Aucune session en cours",
+  "homeResumeEmptyMessage": "Chaque préparation de version crée une session que tu pourras reprendre plus tard.",
+  "homeResumeAction": "Reprendre",
+  "homeFavorite": "Favori",
+  "homeLastOpened": "Ouvert le {date}",
+  "@homeLastOpened": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeSessionStarted": "Session commencée le {date}",
+  "@homeSessionStarted": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "homeCurrentLevel": "Niveau actuel : {level}",
+  "@homeCurrentLevel": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "homeHowTitle": "Comment LaunchPilot travaille",
+  "homeTryDemo": "Découvrir le mode démo",
+  "homeDemoHint": "Explore l'interface avec un projet fictif, sans rien lire ni modifier sur ton disque.",
+  "detectionTitle": "Rapport de détection",
+  "detectionSubtitle": "Technologies, cibles, preuves et niveau de confiance.",
+  "detectionEmptyMessage": "Après l'ouverture d'un dossier, LaunchPilot listera ici ce qu'il a reconnu et pourquoi. Tu pourras confirmer ou corriger les cibles.",
+  "detectionTechnologies": "Technologies détectées",
+  "detectionConfidence": "Confiance : {percent} %",
+  "@detectionConfidence": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "detectionEvidence": "Preuves",
+  "detectionTargets": "Cibles de publication",
+  "detectionTargetDetected": "Détectée",
+  "detectionTargetNotDetected": "Non détectée",
+  "detectionRescan": "Relancer l'analyse",
+  "publicationTitle": "Tableau de publication",
+  "publicationSubtitle": "Quatre niveaux distincts. Tu peux t'arrêter après chacun d'eux.",
+  "publicationGlobalProgress": "Progression globale",
+  "publicationNeverAuto": "La publication n'est jamais déclenchée automatiquement après un build.",
+  "publicationStepsDone": "{done} / {total} étapes",
+  "@publicationStepsDone": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "checklistTitle": "Checklist pédagogique",
+  "checklistSubtitle": "Chaque étape explique son objectif, ses risques et comment la vérifier.",
+  "checklistEmptyMessage": "La checklist sera construite à partir des cibles confirmées de ton projet.",
+  "checklistLevelLabel": "Niveau d'explication",
+  "checklistExplanation": "Explication",
+  "checklistWhy": "Pourquoi c'est nécessaire",
+  "checklistFiles": "Fichiers concernés",
+  "checklistCommands": "Commandes",
+  "checklistExpected": "Résultat attendu",
+  "checklistRisks": "Risques",
+  "checklistVerification": "Comment vérifier",
+  "checklistRollback": "Comment revenir en arrière",
+  "checklistNoRollback": "Aucun retour arrière automatique possible.",
+  "checklistShowVerify": "Montre-moi comment vérifier",
+  "checklistHideVerify": "Masquer la vérification",
+  "checklistRequiresConfirmation": "Confirmation requise",
+  "checklistIrreversible": "Irréversible",
+  "checklistRun": "Exécuter l'étape",
+  "checklistShowDetails": "Afficher les détails",
+  "checklistHideDetails": "Masquer les détails",
+  "terminalTitle": "Terminal intégré",
+  "terminalSubtitle": "Sortie des commandes en direct, avec les secrets masqués.",
+  "terminalEmptyMessage": "Les commandes validées s'afficheront ici en direct. Chaque commande est prévisualisée avant son exécution.",
+  "terminalFilterAll": "Tout",
+  "terminalFilterStdout": "stdout",
+  "terminalFilterStderr": "stderr",
+  "terminalCopy": "Copier la sortie",
+  "terminalCopied": "Sortie copiée dans le presse-papiers.",
+  "terminalStop": "Arrêter",
+  "terminalSimulated": "Sortie simulée",
+  "terminalExitCode": "Code de sortie : {code}",
+  "@terminalExitCode": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "agentTitle": "Agent LaunchPilot",
+  "agentSubtitle": "Pose tes questions, fais reformuler une étape ou demande une aide contextualisée.",
+  "agentComposerHint": "Écris ta question…",
+  "agentSend": "Envoyer",
+  "agentYou": "Toi",
+  "agentAssistant": "Agent",
+  "contentTitle": "Contenus et aperçus",
+  "contentSubtitle": "Textes de store, icônes, captures et aperçus SEO.",
+  "contentTexts": "Textes de la fiche",
+  "contentIcons": "Icônes",
+  "contentScreenshots": "Captures d'écran",
+  "contentPreview": "Aperçu de la fiche",
+  "contentIconsEmpty": "Importe une icône source (1024 × 1024 minimum) pour générer les tailles Android, iOS, favicon et PWA sans déformation.",
+  "contentScreenshotsEmpty": "Importe tes captures pour vérifier leurs dimensions et choisir un cadre de présentation.",
+  "fieldTitle": "Titre",
+  "fieldSubtitle": "Sous-titre",
+  "fieldShortDescription": "Description courte",
+  "fieldKeywords": "Mots-clés",
+  "reportsTitle": "Rapports et historique",
+  "reportsSubtitle": "Sessions passées et exports HTML/PDF.",
+  "reportsEmptyTitle": "Aucun rapport",
+  "reportsEmptyMessage": "Démarre une session de version sur un projet : son rapport (livrables, commandes, audits, actions restantes) pourra ensuite être exporté ici.",
+  "reportsExport": "Exporter en HTML",
+  "settingsTitle": "Paramètres",
+  "settingsSubtitle": "Apparence, langue, accompagnement et fournisseurs d'IA.",
+  "settingsAppearance": "Apparence",
+  "settingsTheme": "Thème",
+  "themeSystem": "Système",
+  "themeDark": "Sombre",
+  "themeLight": "Clair",
+  "settingsTextSize": "Taille du texte",
+  "textSizeNormal": "Normale",
+  "textSizeLarge": "Grande",
+  "textSizeExtraLarge": "Très grande",
+  "settingsAnimations": "Animations",
+  "settingsAnimationsHint": "Transitions courtes et sobres. Désactive-les si elles te gênent.",
+  "settingsLanguage": "Langue",
+  "languageFrench": "Français",
+  "languageEnglish": "English",
+  "settingsGuidance": "Mode d'accompagnement",
+  "modeBeginner": "Débutant",
+  "modeBeginnerDesc": "Explications détaillées, vocabulaire défini, commandes commentées et validations fréquentes.",
+  "modeGuided": "Accompagné",
+  "modeGuidedDesc": "Explications condensées, actions regroupées et confirmation des modifications importantes.",
+  "modeExpert": "Expert",
+  "modeExpertDesc": "Interface plus dense et actions groupées. Les confirmations de sécurité restent obligatoires.",
+  "settingsAi": "Intelligence artificielle",
+  "settingsAiProvider": "Fournisseur préféré",
+  "settingsApiKeys": "Clés API",
+  "settingsApiKeysHint": "Les clés sont stockées dans le trousseau du système (libsecret), jamais en clair dans un fichier. Elles ne sont jamais réaffichées.",
+  "apiKeyStored": "Clé enregistrée",
+  "apiKeyMissing": "Aucune clé",
+  "apiKeyFieldLabel": "Clé API {provider}",
+  "@apiKeyFieldLabel": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "apiKeyFieldReplaceLabel": "Nouvelle clé API {provider}",
+  "@apiKeyFieldReplaceLabel": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "apiKeySave": "Enregistrer",
+  "apiKeyReplace": "Remplacer",
+  "apiKeySaved": "Clé {provider} enregistrée dans le trousseau.",
+  "@apiKeySaved": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "apiKeyDeleted": "Clé {provider} supprimée.",
+  "@apiKeyDeleted": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "apiKeyDeleteTitle": "Supprimer la clé {provider} ?",
+  "@apiKeyDeleteTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "apiKeyDeleteMessage": "La clé sera effacée du trousseau du système. Tu devras la saisir à nouveau pour utiliser ce fournisseur.",
+  "apiKeyErrorEmpty": "Saisis une clé avant d'enregistrer.",
+  "apiKeyErrorTooShort": "Cette clé semble trop courte.",
+  "apiKeyErrorTooLong": "Cette clé est trop longue.",
+  "apiKeyErrorInvalidChars": "Une clé ne contient ni espace ni caractère invisible.",
+  "apiKeyStorageError": "Le trousseau du système est verrouillé ou indisponible : LaunchPilot ne peut pas lire les clés. Déverrouille-le (application « Mots de passe et clés », ou en te reconnectant), ou vérifie que gnome-keyring est lancé, puis réessaie.",
+  "apiKeyWhereToGet": "Obtenir une clé : {url}",
+  "@apiKeyWhereToGet": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsHosting": "Hébergeurs préférés",
+  "settingsHostingHint": "L'hébergeur choisi ici est proposé par défaut pour chaque nouveau site ; tu peux en changer projet par projet dans Contenus → Hébergement.",
+  "settingsDemo": "Mode démo",
+  "settingsDemoHint": "Affiche un projet fictif pour découvrir l'interface. Les données de démonstration sont toujours signalées.",
+  "settingsPrivacy": "Confidentialité",
+  "settingsPrivacyText": "LaunchPilot fonctionne localement. Aucun compte ni service distant n'est nécessaire pour ouvrir l'application.",
+  "helpTitle": "Aide et lexique",
+  "helpSubtitle": "Mode d'emploi, raccourcis clavier et vocabulaire technique.",
+  "helpGuideTitle": "Mode d'emploi",
+  "helpGuideStep1": "Ouvre le dossier de ton projet depuis l'accueil.",
+  "helpGuideStep2": "Vérifie le rapport de détection et confirme les cibles.",
+  "helpGuideStep3": "Suis la checklist niveau par niveau : Analyser, Préparer, Construire, Publier.",
+  "helpGuideStep4": "Valide chaque action sensible après avoir lu son récapitulatif.",
+  "helpGuideStep5": "Exporte le rapport final pour garder une trace.",
+  "helpGuideNote": "LaunchPilot 1.0.0 couvre tout le parcours : projets et sessions, détection, checklist, commandes sécurisées, contenus, web, Android, iOS via CI, chat avec l'agent et rapports. Chaque écriture passe par un aperçu, chaque publication par une confirmation renforcée.",
+  "helpShortcutsTitle": "Raccourcis clavier",
+  "helpShortcutNav": "Aller directement à un écran de la navigation",
+  "helpShortcutTab": "Passer d'un élément à l'autre",
+  "helpShortcutActivate": "Activer l'élément sélectionné",
+  "helpGlossaryTitle": "Lexique",
+  "helpGlossarySearch": "Rechercher un terme",
+  "helpGlossaryNoResult": "Aucun terme ne correspond à ta recherche.",
+  "helpKeysTab": "Tab / Maj+Tab",
+  "helpKeysActivate": "Entrée / Espace",
+  "homeFilterAll": "Tous",
+  "homeFilterFavorites": "Favoris",
+  "homeFavoritesEmpty": "Aucun favori. Clique sur l'étoile d'un projet pour le retrouver ici.",
+  "homeAddFavorite": "Ajouter aux favoris",
+  "homeRemoveFavorite": "Retirer des favoris",
+  "homeOpen": "Ouvrir",
+  "homeProjectMenu": "Actions du projet",
+  "homeNewSession": "Nouvelle session",
+  "homeRelocate": "Relocaliser",
+  "homeRemove": "Retirer de la liste",
+  "homeFolderMissing": "Dossier introuvable",
+  "homeFolderMissingHint": "Le dossier a peut-être été déplacé ou supprimé. Relocalise-le ou retire le projet de la liste.",
+  "homeSessionActive": "Session {version} en cours",
+  "@homeSessionActive": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "homeLoadError": "Impossible de lire les données locales.",
+  "homeResumeSince": "Dernière activité le {date}",
+  "@homeResumeSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "addProjectTitle": "Ajouter un projet",
+  "addProjectPathLabel": "Chemin du dossier",
+  "addProjectPathHint": "~/projets/mon-app",
+  "addProjectNameLabel": "Nom affiché (facultatif)",
+  "addProjectPickerNote": "Colle le chemin complet du dossier, ou utilise le bouton Parcourir.",
+  "addProjectConfirm": "Ajouter",
+  "pathErrorEmpty": "Indique un chemin.",
+  "pathErrorNotAbsolute": "Indique un chemin complet, commençant par / ou ~.",
+  "pathErrorNotFound": "Ce dossier n'existe pas ou n'est pas accessible.",
+  "pathErrorAlreadyRegistered": "Ce dossier est déjà utilisé par un autre projet.",
+  "projectAdded": "Projet « {name} » ajouté.",
+  "@projectAdded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "projectAlreadyKnown": "« {name} » était déjà dans la liste : il a été rouvert.",
+  "@projectAlreadyKnown": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "relocateTitle": "Relocaliser « {name} »",
+  "@relocateTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "relocateOldPath": "Ancien chemin : {path}",
+  "@relocateOldPath": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "relocateConfirm": "Relocaliser",
+  "projectRelocated": "Nouveau chemin enregistré.",
+  "removeProjectTitle": "Retirer « {name} » de LaunchPilot ?",
+  "@removeProjectTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "removeProjectMessage": "Son historique local sera effacé : {sessions, plural, =0{aucune session} =1{1 session} other{{sessions} sessions}} et {steps, plural, =0{aucune étape} =1{1 étape} other{{steps} étapes}} de checklist. Les fichiers de ton projet ne sont pas touchés.",
+  "@removeProjectMessage": {
+    "placeholders": {
+      "sessions": {
+        "type": "int"
+      },
+      "steps": {
+        "type": "int"
+      }
+    }
+  },
+  "removeProjectConfirm": "Retirer",
+  "projectRemoved": "Projet retiré de la liste.",
+  "newSessionTitle": "Nouvelle session pour « {name} »",
+  "@newSessionTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "newSessionVersionLabel": "Version préparée",
+  "newSessionVersionHint": "1.3.0+14",
+  "newSessionHint": "Une session regroupe la préparation d'une version : checklist, textes validés et rapports. Tu pourras la reprendre plus tard.",
+  "newSessionConfirm": "Démarrer",
+  "versionErrorEmpty": "Indique la version préparée.",
+  "versionErrorInvalid": "Chiffres, lettres, points, tirets, + et _ uniquement, sans espace (64 caractères maximum).",
+  "sessionErrorActiveExists": "Une session est déjà en cours pour ce projet. Reprends-la ou clos-la d'abord.",
+  "sessionStarted": "Session {version} démarrée.",
+  "@sessionStarted": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "closeSession": "Clore la session",
+  "closeSessionTitle": "Clore la session {version} ?",
+  "@closeSessionTitle": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "closeSessionMessage": "La session sera marquée comme terminée et ne pourra plus être reprise. Son historique est conservé.",
+  "closeSessionConfirm": "Clore",
+  "sessionClosed": "Session close.",
+  "publicationNoProjectTitle": "Aucun projet ouvert",
+  "publicationNoProjectMessage": "Ouvre ou ajoute un projet depuis l'accueil pour préparer sa publication.",
+  "publicationGoHome": "Aller à l'accueil",
+  "publicationNoSessionTitle": "Aucune session en cours pour ce projet",
+  "publicationNoSessionMessage": "Démarre une session pour préparer une nouvelle version.",
+  "settingsLocalData": "Données locales",
+  "settingsLocalDataHint": "Projets, sessions et checklists sont enregistrés dans une base SQLite sur cet ordinateur. Aucune clé API n'y figure.",
+  "settingsLocalDataLocation": "Emplacement : {path}",
+  "@settingsLocalDataLocation": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "statProjects": "Projets",
+  "statSessions": "Sessions",
+  "statSteps": "Étapes de checklist",
+  "settingsClearData": "Effacer toutes les données locales",
+  "clearDataTitle": "Effacer toutes les données locales ?",
+  "clearDataMessage": "Tous les projets, sessions, checklists et rapports enregistrés par LaunchPilot seront supprimés de cet ordinateur. Les fichiers de tes projets et les clés API ne sont pas touchés. Cette action est irréversible.",
+  "clearDataTypeWord": "Pour confirmer, écris {word}",
+  "@clearDataTypeWord": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "clearDataWord": "EFFACER",
+  "clearDataConfirm": "Tout effacer",
+  "clearDataDone": "Données locales effacées.",
+  "llmErrMissingKey": "Aucune clé API enregistrée pour ce fournisseur.",
+  "llmErrInvalidKey": "Clé API refusée par le fournisseur. Vérifie-la ou remplace-la.",
+  "llmErrPermission": "Cette clé n'a pas accès à cette ressource.",
+  "llmErrBilling": "Problème de facturation ou de quota sur le compte du fournisseur.",
+  "llmErrModelNotFound": "Modèle introuvable ou non disponible pour ce compte.",
+  "llmErrBadRequest": "Requête refusée par le fournisseur (paramètres invalides).",
+  "llmErrTooLarge": "Contenu trop volumineux pour ce fournisseur.",
+  "llmErrRateLimited": "Trop de requêtes : réessaie dans un moment.",
+  "llmErrOverloaded": "Service du fournisseur surchargé : réessaie dans un moment.",
+  "llmErrServer": "Erreur temporaire chez le fournisseur.",
+  "llmErrTimeout": "Pas de réponse dans le délai imparti.",
+  "llmErrCancelled": "Requête annulée.",
+  "llmErrNetwork": "Connexion impossible : vérifie ton accès à Internet.",
+  "llmErrInvalidResponse": "Réponse inexploitable : elle ne respecte pas le format attendu.",
+  "llmErrRefused": "Le modèle a refusé de répondre à cette demande.",
+  "llmErrTruncated": "Réponse incomplète : la limite de longueur a été atteinte.",
+  "llmErrConsent": "Envoi bloqué : la confirmation ne correspond pas à ce contenu ou a déjà servi.",
+  "llmErrDetail": "Détail technique : {detail}",
+  "@llmErrDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "llmModelLabel": "Modèle",
+  "llmModelDefault": "Par défaut : {model}",
+  "@llmModelDefault": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "llmChooseModel": "Choisir parmi les modèles disponibles",
+  "llmTest": "Tester la connexion",
+  "llmTestCancel": "Annuler le test",
+  "llmTestOk": "Connexion réussie en {ms} ms · {count} modèles disponibles",
+  "@llmTestOk": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "llmTestModelOk": "Le modèle « {model} » est disponible.",
+  "@llmTestModelOk": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "llmTestModelMissing": "Le modèle « {model} » n'apparaît pas dans la liste de ce compte.",
+  "@llmTestModelMissing": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAiNetworkPolicy": "LaunchPilot ne contacte un fournisseur qu'à ta demande. Le test de connexion liste les modèles sans consommer de jetons.",
+  "llmTrialTitle": "Essai de génération",
+  "llmTrialHint": "Envoie une question fixe, sans aucune donnée de ton projet, au fournisseur préféré pour vérifier la réponse structurée. Cet essai consomme quelques jetons.",
+  "llmTrialButton": "Lancer un essai",
+  "llmTrialNeedsKey": "Enregistre d'abord une clé pour {provider}.",
+  "@llmTrialNeedsKey": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "llmTrialPrompt": "Explique en deux phrases, à une personne débutante, ce qu'est un numéro de build dans une application mobile, puis cite trois termes techniques liés.",
+  "llmTrialLanguage": "français",
+  "llmTrialAnswer": "Réponse",
+  "llmTrialTerms": "Termes liés",
+  "sendTitle": "Envoyer à {provider} ?",
+  "@sendTitle": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "sendModel": "Modèle : {model}",
+  "@sendModel": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "sendSize": "Environ {tokens} jetons en entrée (estimation)",
+  "@sendSize": {
+    "placeholders": {
+      "tokens": {
+        "type": "int"
+      }
+    }
+  },
+  "sendRedactions": "{count, plural, =0{Aucun secret détecté} =1{1 secret masqué avant l'envoi} other{{count} secrets masqués avant l'envoi}}",
+  "@sendRedactions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sendExcluded": "Fichiers sensibles exclus : {files}",
+  "@sendExcluded": {
+    "placeholders": {
+      "files": {
+        "type": "String"
+      }
+    }
+  },
+  "sendNoProjectData": "Aucune donnée de ton projet n'est incluse.",
+  "sendProjectData": "Des extraits de ton projet sont inclus : relis l'aperçu.",
+  "sendShowPreview": "Voir exactement ce qui sera transmis",
+  "sendHidePreview": "Masquer l'aperçu",
+  "sendSystemLabel": "Consignes",
+  "sendUserLabel": "Contenu",
+  "sendConsentNote": "Cette confirmation ne vaut que pour cet envoi précis.",
+  "sendConfirm": "Envoyer",
+  "sendInProgress": "Requête en cours…",
+  "sendCancelRequest": "Annuler la requête",
+  "sendDoneTitle": "Réponse reçue",
+  "sendUsage": "{input} jetons en entrée · {output} en sortie · {seconds} s",
+  "@sendUsage": {
+    "placeholders": {
+      "input": {
+        "type": "int"
+      },
+      "output": {
+        "type": "int"
+      },
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "sendServedBy": "Réponse produite par {model}",
+  "@sendServedBy": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "sendFailedTitle": "Échec de la requête",
+  "commonClose": "Fermer",
+  "homeChooseFolder": "Choisir un dossier…",
+  "homeEnterPath": "Saisir un chemin",
+  "pickerConfirm": "Choisir ce dossier",
+  "addProjectBrowse": "Parcourir…",
+  "detectionAnalyze": "Analyser le projet",
+  "detectionAnalyzing": "Analyse en cours…",
+  "detectionReadOnlyNote": "L'analyse est en lecture seule : LaunchPilot lit les fichiers de configuration (pubspec.yaml, package.json, manifestes…) sans rien modifier. Les fichiers sensibles (clés, .env) ne sont jamais lus.",
+  "detectionNeverScanned": "Ce projet n'a pas encore été analysé.",
+  "detectionScannedAt": "Analysé le {date} · {count} fichiers parcourus",
+  "@detectionScannedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "detectionFailed": "L'analyse a échoué : {error}",
+  "@detectionFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "detectionPartial": "Analyse partielle ({reasons}) : les résultats peuvent être incomplets.",
+  "@detectionPartial": {
+    "placeholders": {
+      "reasons": {
+        "type": "String"
+      }
+    }
+  },
+  "partialMaxFiles": "plus de 20 000 fichiers",
+  "partialMaxDepth": "dossiers trop profonds",
+  "partialReadBudget": "volume de lecture maximal atteint",
+  "partialTimeout": "durée maximale atteinte",
+  "partialUnreadable": "dossiers illisibles",
+  "detectionNoTechnology": "Aucune technologie reconnue. Vérifie que le dossier choisi est bien la racine du projet.",
+  "detectionInformative": "À titre informatif",
+  "detectionTargetsHint": "Coche les cibles que tu veux publier. Tes choix sont conservés lors des prochaines analyses.",
+  "detectionTargetSelected": "Retenue",
+  "detectionTargetsReviewed": "Cibles validées le {date}",
+  "@detectionTargetsReviewed": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "detectionTargetsToReview": "Cibles à valider : elles suivent la détection tant que tu ne les as pas validées.",
+  "detectionValidateTargets": "Valider les cibles",
+  "detectionTargetsValidated": "Cibles validées.",
+  "detectionIosLinuxNote": "Sous Linux, la construction iOS passera par une CI macOS.",
+  "detectionPackages": "Paquets et scripts",
+  "detectionNoLockFile": "Aucun fichier de verrouillage",
+  "detectionNoScripts": "Aucun script déclaré",
+  "detectionGitAbsent": "Pas de dépôt Git. Il est recommandé d'en créer un avant toute modification, pour pouvoir revenir en arrière.",
+  "detectionGitBranch": "Branche : {branch}",
+  "@detectionGitBranch": {
+    "placeholders": {
+      "branch": {
+        "type": "String"
+      }
+    }
+  },
+  "detectionGitDetached": "HEAD détachée sur {commit}",
+  "@detectionGitDetached": {
+    "placeholders": {
+      "commit": {
+        "type": "String"
+      }
+    }
+  },
+  "detectionGitTags": "{count, plural, =0{Aucun tag} =1{1 tag : {list}} other{{count} tags : {list}}}",
+  "@detectionGitTags": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "detectionGitWorktree": "Dépôt lié (worktree ou sous-module) : détails non lus.",
+  "detectionGitStatusLater": "L'état en direct (modifications non validées) est affiché dans le tableau de publication, section Protection du projet.",
+  "detectionPublishingFiles": "Fichiers de publication",
+  "categoryIcon": "Icônes",
+  "categoryScreenshot": "Captures d'écran",
+  "categoryFastlane": "Fastlane",
+  "categoryCi": "Intégration continue",
+  "categoryHosting": "Hébergement",
+  "categoryPwa": "PWA",
+  "categoryLegal": "Documents juridiques",
+  "categorySigning": "Signature",
+  "detectionNothingFound": "Rien trouvé",
+  "signingNotRead": "présent, non lu",
+  "detectionSeo": "SEO",
+  "seoTitle": "Balise title",
+  "seoDescription": "Meta description",
+  "seoCanonical": "URL canonique",
+  "seoOpenGraph": "Open Graph",
+  "seoTwitterCard": "Twitter Card",
+  "seoStructuredData": "Données structurées (schema.org)",
+  "seoRobots": "robots.txt",
+  "seoSitemap": "sitemap.xml",
+  "detectionPermissions": "Permissions déclarées",
+  "detectionNoPermissions": "Aucune permission détectée",
+  "detectionServices": "Services tiers",
+  "detectionNoServices": "Aucun SDK tiers détecté",
+  "serviceAnalytics": "Statistiques",
+  "serviceAds": "Publicité",
+  "serviceCrash": "Rapports de plantage",
+  "serviceMessaging": "Notifications",
+  "serviceBackend": "Back-end",
+  "servicePayments": "Paiements",
+  "detectionSensitive": "Fichiers sensibles repérés et non lus : {files}",
+  "@detectionSensitive": {
+    "placeholders": {
+      "files": {
+        "type": "String"
+      }
+    }
+  },
+  "riskReadOnly": "Lecture seule",
+  "riskLocal": "Fichiers générés",
+  "riskSensitive": "Modifie le projet",
+  "riskForbidden": "Interdite",
+  "riskReadOnlyDesc": "Ne modifie rien. S'exécute même en mode simulation.",
+  "riskLocalDesc": "Écrit seulement des fichiers générés dans le projet (build, dépendances, cache).",
+  "riskSensitiveDesc": "Modifie des fichiers du projet ou l'état Git : relis bien avant de confirmer.",
+  "riskForbiddenDesc": "Refusée par les garde-fous de LaunchPilot.",
+  "issueNotAllowlisted": "Outil hors de la liste autorisée (git, flutter, dart, npm, pnpm, yarn, bun, node).",
+  "issueShell": "Les shells sont interdits : LaunchPilot n'exécute jamais de chaîne interprétée.",
+  "issuePrivileged": "Les commandes privilégiées (sudo…) sont interdites.",
+  "issueInvalidExecutable": "Indique seulement le nom de l'outil, sans chemin.",
+  "issueInvalidArgument": "Argument invalide (retour à la ligne ou caractère nul).",
+  "issueOutsideProject": "Un argument désigne un chemin hors du projet.",
+  "issueWorkingDirectoryOutside": "Le dossier de travail doit se trouver dans le projet.",
+  "issuePublication": "La publication passe par un flux dédié, avec confirmation renforcée.",
+  "issueGitPush": "L'envoi vers un dépôt distant (push) est interdit ici.",
+  "issueDestructive": "Opération destructrice ou irréversible : interdite. Les restaurations passent par le mécanisme ciblé de LaunchPilot.",
+  "issueSystemChange": "Modification de la configuration ou du système : interdite.",
+  "issueGlobalInstall": "Les installations globales sont interdites.",
+  "issueRemoteCode": "Exécution de code téléchargé ou arbitraire : interdite.",
+  "issueUnknownSubcommand": "Sous-commande non reconnue par la politique de sécurité : refusée par prudence.",
+  "issueRunsProjectScript": "Exécute un script défini par le projet : vérifie son contenu (package.json).",
+  "issueCreatesTag": "Crée un tag Git : confirmation renforcée.",
+  "cmdPreviewTitle": "Aperçu de la commande",
+  "cmdWorkingDir": "Dossier : {path}",
+  "@cmdWorkingDir": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "cmdSimulationNote": "Mode simulation : cette commande sera seulement prévisualisée, pas exécutée.",
+  "cmdRun": "Exécuter",
+  "cmdSimulate": "Simuler",
+  "cmdConfirmReinforced": "J'ai relu le récapitulatif et je confirme cette action.",
+  "cmdNoShellNote": "Les opérateurs |, &&, > … n'ont aucun effet : aucune commande ne passe par un shell.",
+  "cmdParseError": "Guillemet non fermé.",
+  "terminalSimulationOn": "Mode simulation actif : seules les commandes en lecture seule s'exécutent.",
+  "terminalSimulationOff": "Mode simulation désactivé : les commandes confirmées s'exécutent réellement.",
+  "terminalSimulationToggle": "Mode simulation",
+  "terminalQuick": "Commandes proposées",
+  "terminalCustom": "Commande personnalisée",
+  "terminalCustomHint": "git log --oneline -n 20",
+  "terminalPreview": "Prévisualiser",
+  "terminalDuration": "{seconds} s",
+  "@terminalDuration": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "terminalHistory": "Historique",
+  "terminalHistoryEmpty": "Aucune commande exécutée pour ce projet.",
+  "terminalNoOutput": "Aucune sortie.",
+  "terminalTruncated": "Début de la sortie tronqué (sortie très longue).",
+  "terminalStartFailed": "Impossible de lancer « {exe} » : vérifie qu'il est installé et dans le PATH.",
+  "@terminalStartFailed": {
+    "placeholders": {
+      "exe": {
+        "type": "String"
+      }
+    }
+  },
+  "runSucceeded": "Réussie",
+  "runFailed": "Échec",
+  "runCancelled": "Annulée",
+  "runTimedOut": "Délai dépassé",
+  "runBlocked": "Bloquée",
+  "runSimulated": "Simulée",
+  "runStartFailed": "Lancement impossible",
+  "protectionTitle": "Protection du projet",
+  "protectionNoGit": "Pas de dépôt Git : LaunchPilot sauvegarde quand même chaque fichier avant de le modifier, mais un dépôt Git est vivement recommandé.",
+  "protectionClean": "Dépôt propre : aucune modification non validée.",
+  "protectionDirty": "{count, plural, =1{1 modification non validée} other{{count} modifications non validées}}",
+  "@protectionDirty": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "protectionDirtyHint": "LaunchPilot ne touchera jamais à tes modifications. Pense à les valider (commit) ou à travailler sur une branche dédiée.",
+  "protectionDetached": "HEAD détachée",
+  "protectionRefresh": "Actualiser",
+  "protectionCreateBranch": "Créer la branche {name}",
+  "@protectionCreateBranch": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "protectionOnBranch": "Tu travailles sur la branche {name}.",
+  "@protectionOnBranch": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "protectionGitignoreTitle": "Fichiers sensibles non ignorés par Git",
+  "protectionGitignoreHint": "Ils pourraient être versionnés par erreur : {files}",
+  "@protectionGitignoreHint": {
+    "placeholders": {
+      "files": {
+        "type": "String"
+      }
+    }
+  },
+  "protectionGitignoreAction": "Préparer l'ajout au .gitignore",
+  "protectionGitignoreLabel": "Protection des fichiers sensibles",
+  "protectionChanges": "Modifications faites par LaunchPilot",
+  "protectionChangesEmpty": "LaunchPilot n'a encore modifié aucun fichier de ce projet.",
+  "protectionRestore": "Restaurer",
+  "protectionRestored": "Restauré le {date}",
+  "@protectionRestored": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "changeCreated": "créé",
+  "changeModified": "modifié",
+  "restoreDone": "Fichier restauré.",
+  "restoreConflict": "Restauration refusée : le fichier a été modifié depuis. Tes changements sont conservés.",
+  "restoreBackupMissing": "Copie de sauvegarde introuvable : restauration impossible.",
+  "writePreviewTitle": "Aperçu des modifications",
+  "writeFileNew": "Nouveau fichier",
+  "writeDirtyWarning": "{count, plural, =1{Le dépôt contient 1 modification non validée.} other{Le dépôt contient {count} modifications non validées.}} LaunchPilot n'y touchera pas ; ses propres changements pourront être annulés fichier par fichier.",
+  "@writeDirtyWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "writeBackupNote": "Une copie de chaque fichier est sauvegardée avant l'écriture, pour pouvoir le restaurer.",
+  "writeConfirm": "Écrire les fichiers",
+  "writeDone": "Modifications écrites.",
+  "writeChangedSincePreview": "Un fichier a changé depuis l'aperçu : rien n'a été écrit. Relance l'aperçu.",
+  "writeRefused": "Écriture refusée : {path}",
+  "@writeRefused": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "writeTooBig": "Fichier trop grand pour l'aperçu ligne à ligne.",
+  "settingsExecution": "Exécution des commandes",
+  "settingsSimulationHint": "Activé : seules les commandes en lecture seule (git status, flutter analyze…) s'exécutent ; les autres sont seulement prévisualisées. Les commandes interdites (push, publication, suppression…) restent refusées dans tous les cas.",
+  "checklistBlocked": "Bloquée",
+  "checklistBlockedBy": "Termine d'abord : {steps}",
+  "@checklistBlockedBy": {
+    "placeholders": {
+      "steps": {
+        "type": "String"
+      }
+    }
+  },
+  "checklistLaterPhase": "Automatisation prévue en phase {phase} : d'ici là, suis les explications et marque l'étape comme faite.",
+  "@checklistLaterPhase": {
+    "placeholders": {
+      "phase": {
+        "type": "int"
+      }
+    }
+  },
+  "checklistGlossary": "Termes",
+  "kindCommand": "Commande",
+  "kindManual": "Vérification",
+  "kindPedagogical": "À comprendre",
+  "checklistDone": "C'est vérifié",
+  "checklistUnderstood": "J'ai compris",
+  "checklistReset": "Recommencer",
+  "checklistNeedsDetectionTitle": "Projet pas encore analysé",
+  "checklistNeedsDetectionMessage": "La checklist est construite à partir du rapport de détection et des cibles retenues.",
+  "checklistGoDetection": "Aller à la détection",
+  "checklistTargetsNotReviewed": "Cibles pas encore validées : la checklist suit la détection.",
+  "checklistActiveTargets": "Cibles : {list}",
+  "@checklistActiveTargets": {
+    "placeholders": {
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "checklistNext": "Prochaine étape : {title}",
+  "@checklistNext": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "checklistAllDone": "Toutes les étapes sont terminées.",
+  "checklistRunOk": "Étape réussie.",
+  "checklistRunFailed": "La commande a échoué : la sortie est dans le terminal.",
+  "checklistSimulated": "Commande simulée : l'étape reste à faire. Désactive le mode simulation pour l'exécuter vraiment.",
+  "checklistOpenTerminal": "Voir la sortie",
+  "contentTabVersion": "Version",
+  "contentTabChangelog": "Changelog",
+  "contentTabTexts": "Textes",
+  "contentTabLegal": "Juridique",
+  "contentNeedsProject": "Ouvre un projet pour préparer sa version, ses icônes, ses captures, ses textes et ses documents juridiques.",
+  "contentNeedsSession": "Démarre une session (tableau de publication) pour enregistrer ces contenus.",
+  "contentPreviewWrite": "Prévisualiser et écrire",
+  "versionNoManifest": "Aucun fichier de version trouvé (pubspec.yaml ou package.json).",
+  "versionNoLine": "Ce fichier ne contient pas de ligne « version ».",
+  "versionCurrent": "Version actuelle : {version}",
+  "@versionCurrent": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "versionUnparsable": "Format « {version} » non reconnu : saisis la nouvelle version à la main.",
+  "@versionUnparsable": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "versionBumpMajor": "Majeure",
+  "versionBumpMinor": "Mineure",
+  "versionBumpPatch": "Correctif",
+  "versionBumpNone": "Build seul",
+  "versionBumpHelp": "Majeure : changement incompatible · Mineure : nouveauté · Correctif : correction.",
+  "versionIncrementBuild": "Augmenter le numéro de build",
+  "versionCustom": "Ou saisir la version",
+  "versionProposed": "{from} → {to}",
+  "@versionProposed": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "versionUseSession": "Utiliser la version de la session ({version})",
+  "@versionUseSession": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "versionInvalid": "Version invalide : utilise le format 1.2.3 ou 1.2.3+4.",
+  "versionNotHigher": "Attention : cette version n'est pas supérieure à l'actuelle.",
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "changelogRead": "Lire les commits",
+  "changelogSinceTag": "{count} commits depuis {tag}",
+  "@changelogSinceTag": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "tag": {
+        "type": "String"
+      }
+    }
+  },
+  "changelogLimited": "Aucun tag trouvé : les {count} derniers commits",
+  "@changelogLimited": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "changelogNoGit": "Pas de dépôt Git : écris le changelog à la main.",
+  "changelogTechnical": "Technique",
+  "changelogPublic": "Grand public",
+  "changelogPublicFallback": "Améliorations et corrections diverses.",
+  "changelogGroupBreaking": "Changements importants",
+  "changelogGroupFeatures": "Nouveautés",
+  "changelogGroupFixes": "Corrections",
+  "changelogGroupPerformance": "Performances",
+  "changelogGroupDocs": "Documentation",
+  "changelogGroupOther": "Autres changements",
+  "changelogAi": "Reformuler avec l'IA",
+  "changelogAiInstruction": "Reformule ces messages de commit en deux changelogs Markdown pour la version {version} : « technical » pour les développeurs, « public » simple et sans jargon pour le grand public. Commence chacun par « ## {version} ». N'invente aucun changement.",
+  "@changelogAiInstruction": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "changelogWrite": "Écrire dans CHANGELOG.md",
+  "changelogTag": "Créer le tag {tag}",
+  "@changelogTag": {
+    "placeholders": {
+      "tag": {
+        "type": "String"
+      }
+    }
+  },
+  "changelogTagNote": "Le tag reste local : LaunchPilot ne pousse jamais vers un dépôt distant.",
+  "changelogEmpty": "Aucun commit à résumer.",
+  "iconsChoose": "Choisir l'image source",
+  "iconsSourceInfo": "{name} · {width} × {height} px",
+  "@iconsSourceInfo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "width": {
+        "type": "int"
+      },
+      "height": {
+        "type": "int"
+      }
+    }
+  },
+  "iconsIssueTooSmall": "Image trop petite : 512 px minimum, 1024 px recommandés.",
+  "iconsIssueBelowRecommended": "Moins de 1024 px : les grandes icônes pourraient être floues.",
+  "iconsIssueNotSquare": "Image non carrée : elle sera centrée sur un fond transparent, jamais étirée.",
+  "iconsIssueTransparent": "Zones transparentes : remplies par la couleur de fond pour les icônes opaques (App Store).",
+  "iconsIssueUnreadable": "Image illisible.",
+  "iconsBackground": "Couleur de fond (icônes opaques et maskables)",
+  "iconsTargets": "{count} fichiers à produire",
+  "@iconsTargets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "iconsNoTarget": "Aucune cible avec icônes : retiens Android, iOS ou Web dans la détection.",
+  "iconsGenerate": "Générer les icônes",
+  "iconsGenerating": "Génération…",
+  "iconsLabel": "Icônes de l'application",
+  "shotsImport": "Importer des captures",
+  "slotPlay": "Play Store",
+  "slotIphone69": "iPhone 6,9\"",
+  "slotIphone65": "iPhone 6,5\"",
+  "slotIpad13": "iPad 13\"",
+  "shotsMask": "Masquer des zones",
+  "shotsMaskCount": "{count, plural, =0{Aucune zone masquée} =1{1 zone masquée} other{{count} zones masquées}}",
+  "@shotsMaskCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "shotsMaskHelp": "Fais glisser sur l'image pour recouvrir une donnée personnelle (nom, e-mail, numéro…). Le recouvrement est définitif dans l'export.",
+  "shotsMaskClear": "Tout effacer",
+  "shotsMaskApply": "Valider",
+  "shotsRemove": "Retirer",
+  "shotsCaption": "Légende",
+  "shotsFrame": "Cadre",
+  "frameNone": "Aucun",
+  "frameIndigo": "Indigo",
+  "frameLight": "Clair",
+  "frameSunset": "Coucher de soleil",
+  "shotsFormat": "Format d'export",
+  "formatPlay": "Play Store 1080 × 1920",
+  "formatIphone": "iPhone 1290 × 2796",
+  "formatIpad": "iPad 2048 × 2732",
+  "shotsExport": "Préparer l'export",
+  "shotsLabel": "Captures pour les stores",
+  "textsLanguage": "Langue de la fiche",
+  "textsPitch": "Décris l'application en une phrase",
+  "textsPitchHint": "Une app météo locale, simple et sans publicité.",
+  "textsAi": "Générer avec l'IA",
+  "textsAiInstruction": "Rédige la fiche de store de l'application « {app} » en {language}. Description : {pitch}. Respecte strictement les limites : titre et sous-titre 30 caractères, description courte 80, mots-clés 100 (séparés par des virgules), texte promotionnel 170, description longue 4000. N'invente aucune fonctionnalité absente de la description.",
+  "@textsAiInstruction": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      },
+      "language": {
+        "type": "String"
+      },
+      "pitch": {
+        "type": "String"
+      }
+    }
+  },
+  "fieldLongDescription": "Description longue",
+  "fieldPromoText": "Texte promotionnel",
+  "textsCounter": "{count} / {limit}",
+  "@textsCounter": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "textsSave": "Enregistrer les textes",
+  "textsSaved": "Textes enregistrés dans la session.",
+  "textsOverLimit": "Certains champs dépassent la limite des stores.",
+  "textsPreviewStore": "Aperçu de la fiche",
+  "textsPreviewSocial": "Aperçu de partage",
+  "textsNote": "Les textes sont gardés dans la session ; leur envoi aux stores viendra avec Fastlane (phase 9).",
+  "legalDisclaimer": "Ces documents sont des modèles générés à partir de tes réponses. Ils ne garantissent pas la conformité juridique : relis-les, complète-les et fais-les valider par un professionnel si nécessaire.",
+  "legalPublisherType": "Éditeur",
+  "publisherIndividual": "Particulier",
+  "publisherCompany": "Entreprise",
+  "legalAppName": "Nom de l'application",
+  "legalPublisherName": "Nom de l'éditeur",
+  "legalAddress": "Adresse",
+  "legalEmail": "E-mail de contact",
+  "legalCompanyId": "SIREN / SIRET",
+  "legalHostName": "Hébergeur",
+  "legalHostAddress": "Adresse de l'hébergeur",
+  "legalData": "Données collectées",
+  "dataContact": "Contact",
+  "dataLocation": "Localisation",
+  "dataPhotos": "Photos / caméra",
+  "dataAudio": "Audio",
+  "dataContacts": "Carnet de contacts",
+  "dataUsage": "Statistiques d'usage",
+  "dataCrash": "Rapports de plantage",
+  "dataAdId": "Identifiant publicitaire",
+  "dataPayment": "Paiement",
+  "legalPrefilled": "Préremplies d'après la détection : vérifie-les.",
+  "legalThirdParties": "Services tiers",
+  "legalAddThirdParty": "Ajouter un service",
+  "legalRetention": "Conservation : {months} mois",
+  "@legalRetention": {
+    "placeholders": {
+      "months": {
+        "type": "int"
+      }
+    }
+  },
+  "legalCookies": "Le site utilise des cookies de mesure ou de publicité",
+  "legalMinors": "L'application s'adresse aussi aux moins de 15 ans",
+  "legalMissing": "À compléter : {fields}",
+  "@legalMissing": {
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      }
+    }
+  },
+  "legalSave": "Enregistrer les réponses",
+  "legalSaved": "Réponses enregistrées.",
+  "legalDocLanguage": "Langue des documents",
+  "legalGenerate": "Générer les modèles",
+  "legalLabel": "Documents juridiques (modèles)",
+  "checklistOpenTool": "Ouvrir l'outil",
+  "writeBinary": "Fichier binaire · {size} octets",
+  "@writeBinary": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "writeImageBefore": "Avant",
+  "writeImageAfter": "Après",
+  "issueProductionDeploy": "Mise en ligne publique : confirmation renforcée.",
+  "issuePreviewDeploy": "Mise en ligne sur une adresse de prévisualisation : confirmation renforcée.",
+  "issueNetwork": "Interroge le site en ligne et écrit un rapport dans le projet.",
+  "commonCopy": "Copier",
+  "commonCopied": "Copié dans le presse-papiers.",
+  "auditAreaResponsive": "Affichage mobile",
+  "auditAreaAccessibility": "Accessibilité",
+  "auditAreaLinks": "Liens",
+  "auditAreaForms": "Formulaires",
+  "auditAreaErrors": "Pages d'erreur",
+  "webGapNoScript": "Aucune commande de build déclarée par le projet (script « build » absent) : LaunchPilot n'en invente pas. Ajoute-en une dans package.json, ou indique le dossier déjà prêt à mettre en ligne.",
+  "webGapServer": "Ce framework rend les pages côté serveur : il n'y a pas de dossier statique à déposer. Utilise l'intégration Git de Vercel ou Netlify, ou configure un export statique.",
+  "webNoPlan": "Aucun site web reconnu dans ce projet. Lance l'analyse ou vérifie la cible Web dans le rapport de détection.",
+  "webBuildTitle": "Construction",
+  "webFramework": "Technologie : {name}",
+  "@webFramework": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "webOutputDir": "Dossier de sortie (relatif au projet)",
+  "webOutputGuessed": "Convention du framework, non confirmée : vérifie-la puis valide avec Entrée.",
+  "webOutputReady": "Le dossier de sortie contient index.html.",
+  "webOutputMissing": "Pas encore de index.html dans le dossier de sortie : construis le site.",
+  "webBuild": "Construire (aperçu de la commande)",
+  "webAuditTitle": "Audit du site",
+  "webAuditHelp": "Contrôles statiques, sans réseau : SEO, affichage mobile, PWA, accessibilité, liens internes, contenu mixte, formulaires et page 404.",
+  "webAuditOutput": "Site construit",
+  "webAuditSources": "Sources",
+  "webAuditRun": "Lancer l'audit",
+  "webAuditNoFolder": "Ce dossier n'existe pas encore.",
+  "webAuditSummary": "{failures} problème(s), {warnings} avertissement(s), {ok} contrôle(s) réussi(s)",
+  "@webAuditSummary": {
+    "placeholders": {
+      "failures": {
+        "type": "int"
+      },
+      "warnings": {
+        "type": "int"
+      },
+      "ok": {
+        "type": "int"
+      }
+    }
+  },
+  "webAuditTruncated": "Site volumineux : seule une partie a été examinée.",
+  "webAuditLimits": "L'audit lit les fichiers : il ne remplace ni un test sur de vrais appareils, ni Lighthouse, ni la vérification des liens externes.",
+  "webPreviewTitle": "Aperçu local",
+  "webPreviewHelp": "Sert le dossier de sortie sur ta machine uniquement (127.0.0.1), pour le tester dans un navigateur ou avec Lighthouse.",
+  "webServeStart": "Démarrer l'aperçu",
+  "webServeStop": "Arrêter l'aperçu",
+  "webPreviewChecks": "À vérifier à la main : affichage sur mobile (mode responsive du navigateur), navigation, formulaires, page 404 et mode hors ligne.",
+  "webLighthouseMissing": "Lighthouse n'est pas installé : c'est facultatif. Pour l'ajouter (Node.js et Chrome ou Chromium requis), lance dans ton propre terminal :",
+  "webLighthouseHelp": "Mesure performance, accessibilité, bonnes pratiques et SEO d'une adresse (aperçu local ou site en ligne). Le rapport est écrit dans lighthouse-report.json, à la racine du projet.",
+  "webLighthouseUrl": "Adresse à auditer",
+  "webLighthouseRun": "Lancer Lighthouse",
+  "webLighthouseRead": "Lire le dernier rapport",
+  "webLighthouseUnreadable": "Le rapport Lighthouse est illisible.",
+  "seoLabel": "SEO",
+  "seoAnalyticsLabel": "Statistiques",
+  "seoHelp": "Ces informations décrivent le site aux moteurs de recherche et aux réseaux sociaux. LaunchPilot prépare les balises, robots.txt, sitemap.xml et les données schema.org ; tu vois chaque modification avant écriture.",
+  "seoSiteUrl": "Adresse publique du site",
+  "seoSiteUrlInvalid": "Adresse invalide : elle doit commencer par https:// et contenir un domaine.",
+  "seoSiteName": "Nom du site",
+  "seoImage": "Image de partage (adresse complète)",
+  "seoImageHint": "Conseillé : 1200 × 630 px, publiée sur le site (par exemple dans le dossier public).",
+  "seoTwitter": "Compte X / Twitter (facultatif)",
+  "seoLocale": "Langue et pays (Open Graph)",
+  "seoSchema": "Type schema.org",
+  "seoSchemaWebsite": "Site web",
+  "seoSchemaApp": "Application web",
+  "seoSchemaOrg": "Organisation",
+  "seoExtraPaths": "Autres pages du sitemap (une par ligne)",
+  "seoSpaNote": "Application monopage : le sitemap contient l'accueil. Ajoute les autres routes publiques ensuite si besoin.",
+  "seoFiles": "Fichiers concernés : {files}",
+  "@seoFiles": {
+    "placeholders": {
+      "files": {
+        "type": "String"
+      }
+    }
+  },
+  "seoManagedHead": "Ce framework génère lui-même <head> : LaunchPilot ne modifie pas ses fichiers. Recopie ces balises dans la configuration de tête de page (metadata, useHead…).",
+  "seoNeedsUrl": "Indique d'abord l'adresse publique du site.",
+  "seoPreviewSearch": "Aperçu dans un moteur de recherche",
+  "seoPreviewSocial": "Aperçu de partage",
+  "seoPreviewNoImage": "Aucune image de partage",
+  "seoAnalyticsTitle": "Statistiques respectueuses de la vie privée",
+  "seoAnalyticsHelp": "Plausible et Umami mesurent la fréquentation sans cookie ni donnée personnelle revendue. Il te faut un compte (ou ta propre instance) ; LaunchPilot ajoute seulement le script à la page.",
+  "seoAnalyticsNone": "Aucune",
+  "seoAnalyticsScript": "Adresse du script (facultatif, instance auto-hébergée)",
+  "seoAnalyticsUmamiId": "Identifiant du site Umami (website ID)",
+  "seoAnalyticsLegal": "Pense à le mentionner dans la politique de confidentialité (outil Juridique).",
+  "seoAnalyticsAdd": "Ajouter à la page (aperçu)",
+  "seoAnalyticsRemove": "Retirer les statistiques (aperçu)",
+  "pwaLabel": "PWA",
+  "pwaHelp": "Une PWA s'installe comme une application depuis le navigateur. Le manifeste décrit son nom, ses couleurs et ses icônes ; le service worker (facultatif) permet le mode hors ligne.",
+  "pwaName": "Nom complet",
+  "pwaShortName": "Nom court",
+  "pwaShortNameHint": "Affiché sous l'icône : 12 caractères au plus conseillés.",
+  "pwaDescription": "Description",
+  "pwaThemeColor": "Couleur de thème",
+  "pwaBackgroundColor": "Couleur de fond (écran de lancement)",
+  "pwaColorInvalid": "Format attendu : #RRGGBB",
+  "pwaDisplay": "Mode d'affichage",
+  "pwaIconsOk": "Icônes 192 et 512 px présentes.",
+  "pwaIconsMissing": "Icônes 192 et 512 px absentes : génère-les avec l'outil Icônes.",
+  "pwaWorker": "Ajouter un service worker hors ligne",
+  "pwaWorkerHelp": "Crée sw.js (pages en réseau d'abord avec repli hors ligne, fichiers en cache) et l'enregistre dans la page.",
+  "pwaWorkerFlutter": "Le service worker automatique de Flutter est déprécié. Celui-ci le remplace : construis ensuite avec « --pwa-strategy=none » si ta version de Flutter le propose encore, pour éviter deux workers.",
+  "pwaOfflineTest": "Pour tester : construis, démarre l'aperçu local, ouvre les outils de développement → Application → cocher « Offline », puis recharge la page.",
+  "pwaProblems": "À corriger : {fields}",
+  "@pwaProblems": {
+    "placeholders": {
+      "fields": {
+        "type": "String"
+      }
+    }
+  },
+  "hostingGapFirebase": "Indique l'identifiant du projet Firebase (visible dans la console Firebase).",
+  "hostingGapGithub": "Indique le dépôt GitHub sous la forme utilisateur/depot.",
+  "hostingGapBuild": "Aucune commande de build connue : le workflow GitHub ne saurait pas construire le site.",
+  "hostingLabel": "Hébergement {host}",
+  "@hostingLabel": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "hostingChoose": "Hébergeur",
+  "hostingChooseHelp": "Choisis où publier le site. Ton choix par défaut se règle dans les Paramètres.",
+  "hostingFirebaseProject": "Identifiant du projet Firebase",
+  "hostingNetlifySite": "Nom ou identifiant du site Netlify (facultatif si le dossier est lié)",
+  "hostingGithubRepo": "Dépôt GitHub (utilisateur/depot)",
+  "hostingDomain": "Domaine personnalisé (facultatif)",
+  "hostingInvalid": "Format invalide.",
+  "hostingFiles": "Fichiers préparés : {files}",
+  "@hostingFiles": {
+    "placeholders": {
+      "files": {
+        "type": "String"
+      }
+    }
+  },
+  "hostingPrepare": "Préparer la configuration (aperçu)",
+  "hostingDeployTitle": "Mise en ligne",
+  "hostingGithubDeploy": "GitHub Pages publie le site à chaque push sur main, grâce au workflow préparé ci-dessus. LaunchPilot ne pousse jamais : valide (commit) puis pousse toi-même, puis dans GitHub → Settings → Pages, choisis « GitHub Actions » comme source.",
+  "hostingCliMissing": "L'outil « {cli} » n'est pas installé. Installe-le dans ton propre terminal (installation globale, jamais lancée par LaunchPilot) :",
+  "@hostingCliMissing": {
+    "placeholders": {
+      "cli": {
+        "type": "String"
+      }
+    }
+  },
+  "hostingLogin": "Connexion à ton compte : lance « {command} » dans ton propre terminal. LaunchPilot ne voit ni ne stocke tes identifiants.",
+  "@hostingLogin": {
+    "placeholders": {
+      "command": {
+        "type": "String"
+      }
+    }
+  },
+  "hostingVercelLink": "Au premier déploiement, Vercel peut demander de lier le dossier à un projet : lance « vercel link » dans ton terminal si la commande échoue.",
+  "hostingNetlifyLink": "Sans nom de site, Netlify utilise le site lié au dossier (« netlify link » dans ton terminal).",
+  "hostingBuildFirst": "Construis d'abord le site (onglet Site web) : le dossier de sortie ne contient pas index.html.",
+  "hostingDeployNote": "Chaque mise en ligne passe par un récapitulatif à cocher, puis par l'aperçu de la commande avec confirmation renforcée. En mode simulation, rien n'est publié.",
+  "hostingDeployPreview": "Déployer en prévisualisation",
+  "hostingDeployProduction": "Déployer en production",
+  "hostingDnsTitle": "Domaine et DNS",
+  "hostingDnsNever": "LaunchPilot ne modifie jamais le DNS : saisis toi-même ces enregistrements chez le gestionnaire de ton domaine.",
+  "hostingDnsNeedsDomain": "Indique un domaine personnalisé pour voir les enregistrements recommandés.",
+  "hostingDnsFirebase": "Firebase fournit des valeurs propres à ton projet : console Firebase → Hosting → Ajouter un domaine personnalisé, puis recopie les enregistrements indiqués.",
+  "hostingDnsVercel": "Valeurs générales de Vercel. Vercel peut recommander des valeurs propres à ton projet : vérifie dans le tableau de bord (Domains) ou avec « vercel domains inspect ».",
+  "hostingDnsNetlify": "Netlify ne gère pas l'IPv6 sur cette adresse : supprime tout enregistrement AAAA du domaine racine. Si ton gestionnaire le permet, préfère un ALIAS vers apex-loadbalancer.netlify.com.",
+  "hostingDnsGithub": "Ajoute aussi le domaine dans GitHub → Settings → Pages (le fichier CNAME est préparé avec la configuration), puis active « Enforce HTTPS ».",
+  "hostingDnsPropagation": "La propagation peut prendre jusqu'à 24 heures.",
+  "hostingDnsCheck": "Vérifier la résolution",
+  "hostingDnsNone": "Le domaine ne se résout pas encore.",
+  "hostingDnsResolved": "Le domaine pointe vers : {addresses}",
+  "@hostingDnsResolved": {
+    "placeholders": {
+      "addresses": {
+        "type": "String"
+      }
+    }
+  },
+  "hostingOnlineTitle": "Vérification en ligne",
+  "hostingOnlineHelp": "Interroge l'adresse publique du site : réponse en HTTPS, redirection depuis HTTP et en-tête HSTS.",
+  "hostingOnlineCheck": "Vérifier le site en ligne",
+  "hostingHttpsFailed": "HTTPS inaccessible ({error}).",
+  "@hostingHttpsFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "hostingHttpsStatus": "HTTPS répond (code {code}).",
+  "@hostingHttpsStatus": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "hostingRedirectUnknown": "Redirection HTTP → HTTPS non vérifiable.",
+  "hostingRedirectOk": "HTTP redirige vers HTTPS.",
+  "hostingRedirectMissing": "HTTP ne redirige pas vers HTTPS.",
+  "hostingHstsOk": "En-tête HSTS présent.",
+  "hostingHstsMissing": "Pas d'en-tête HSTS (facultatif, renforce HTTPS).",
+  "deployRecapProd": "Récapitulatif : mise en production",
+  "deployRecapPreview": "Récapitulatif : prévisualisation",
+  "deployRecapHost": "Hébergeur : {host}",
+  "@deployRecapHost": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "deployRecapProject": "Projet : {name}",
+  "@deployRecapProject": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "deployRecapFolder": "Dossier publié : {folder}",
+  "@deployRecapFolder": {
+    "placeholders": {
+      "folder": {
+        "type": "String"
+      }
+    }
+  },
+  "deployRecapProdEffect": "Le site public sera remplacé par ce contenu, visible par tous.",
+  "deployRecapPreviewEffect": "Une adresse temporaire, accessible à quiconque la connaît, sera créée.",
+  "deployRecapDirty": "Le dépôt contient des modifications non validées : le site publié ne correspondra à aucun commit.",
+  "deployRecapSimulation": "Mode simulation actif : la commande sera seulement prévisualisée, rien ne sera publié.",
+  "deployRecapAck": "J'ai relu ce récapitulatif et je veux publier.",
+  "deployRecapContinue": "Continuer vers l'aperçu de la commande",
+  "contentTabWeb": "Site web",
+  "contentTabHosting": "Hébergement",
+  "contentWebNotSelected": "La cible Web n'est pas retenue pour ce projet : coche-la dans le rapport de détection pour utiliser cet outil.",
+  "settingsPreferredHost": "Hébergeur proposé par défaut",
+  "settingsHostNone": "Aucun",
+  "settingsAnalytics": "Statistiques proposées pour les sites",
+  "webSeoTitle": "Titre (balise <title>)",
+  "webSeoDescription": "Description",
+  "issueStorePublication": "Envoi vers Google Play : confirmation renforcée.",
+  "androidAreaIdentity": "Identité",
+  "androidAreaVersion": "Version",
+  "androidAreaSdk": "Versions d'Android",
+  "androidAreaSigning": "Signature",
+  "androidAreaSecurity": "Sécurité",
+  "androidAreaPermissions": "Permissions",
+  "androidAreaIcons": "Icônes",
+  "androidNoModule": "Aucun dossier android dans ce projet Flutter : génère-le avec « flutter create --platforms=android . » dans ton terminal.",
+  "androidEnvTitle": "Environnement Android",
+  "androidEnvHelp": "Vérifie le SDK Android, Java et les licences avec « flutter doctor -v » (lecture seule). Les versions de Gradle, du plugin Android et de Kotlin sont lues dans le projet.",
+  "androidToolVersions": "Gradle {gradle} · plugin Android {agp} · Kotlin {kotlin}",
+  "@androidToolVersions": {
+    "placeholders": {
+      "gradle": {
+        "type": "String"
+      },
+      "agp": {
+        "type": "String"
+      },
+      "kotlin": {
+        "type": "String"
+      }
+    }
+  },
+  "androidDoctor": "Vérifier l'environnement (flutter doctor -v)",
+  "androidDoctorEmpty": "Aucune section Android dans la sortie : le SDK Android n'est peut-être pas installé.",
+  "androidJava": "Java : {version}",
+  "@androidJava": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "androidLicenses": "Pour accepter les licences, lance « flutter doctor --android-licenses » dans ton propre terminal (questions interactives).",
+  "androidAuditTitle": "Audit Android",
+  "androidAuditHelp": "Identifiant, version, API cible, signature, sécurité, permissions (confrontées aux plugins du projet) et icônes. Les fichiers de signature ne sont jamais lus.",
+  "androidAuditRun": "Lancer l'audit Android",
+  "androidDataSafety": "Les permissions et SDK détectés alimentent la section « Sécurité des données » de la Play Console et le questionnaire juridique (outil Juridique).",
+  "androidSigningTitle": "Clé de signature",
+  "androidSigningHelp": "Chaque version publiée est signée avec ta clé d'envoi (keystore). Tu la crées une seule fois dans ton terminal : les mots de passe ne passent jamais par LaunchPilot, qui ne lit ni key.properties ni le keystore.",
+  "androidKeyPropertiesPresent": "android/key.properties est présent (non lu).",
+  "androidKeyPropertiesMissing": "android/key.properties est absent.",
+  "androidKeytoolStep": "1. Créer le keystore (dans ton terminal, hors du projet)",
+  "androidKeyPropertiesStep": "2. Créer android/key.properties (à remplir toi-même)",
+  "androidPlayAppSigning": "Avec la signature d'application Play (activée par défaut), Google garde la clé finale ; ta clé ne sert qu'à l'envoi et peut être réinitialisée si tu la perds. Sauvegarde-la quand même hors du projet.",
+  "androidSigningConfigure": "3. Configurer la signature release (aperçu)",
+  "androidGitignore": "Ignorer les secrets de signature (aperçu)",
+  "androidGitignoreDone": "Le .gitignore contient déjà ces entrées.",
+  "androidGitignoreLabel": "Secrets de signature Android",
+  "androidSigningLabel": "Signature release Android",
+  "androidSigningAlready": "La signature release est déjà configurée.",
+  "androidSigningUnrecognized": "Ce fichier ne ressemble pas au modèle Flutter : LaunchPilot ne le modifie pas. Recopie cet extrait à la main.",
+  "androidBuildTitle": "Construction",
+  "androidBuildHelp": "L'App Bundle (.aab) est le format exigé par Google Play. L'APK sert aux tests ou à une distribution hors store ; « par architecture » produit des fichiers plus légers.",
+  "androidBuildAab": "Construire l'App Bundle",
+  "androidBuildApk": "Construire l'APK",
+  "androidSplitPerAbi": "Un APK par architecture",
+  "androidDeliverablesTitle": "Livrables",
+  "androidDeliverablesHelp": "Chemin, taille, empreinte SHA-256 et signature des fichiers produits.",
+  "androidDeliverablesCheck": "Contrôler les livrables",
+  "androidDeliverablesNone": "Aucun livrable trouvé : construis d'abord l'App Bundle ou l'APK.",
+  "androidSignedDebug": "Signé avec la clé de débogage : Google Play le refusera.",
+  "androidSignedRelease": "Signé avec ta clé.",
+  "androidUnsigned": "Aucune signature trouvée.",
+  "playFieldTitle": "Nom de l'application",
+  "playFieldShort": "Description courte",
+  "playFieldFull": "Description complète",
+  "playFieldChangelog": "Notes de version (cette version)",
+  "playSaved": "Fiche Play Store enregistrée dans la session.",
+  "playListingTitle": "Fiche Play Store",
+  "playListingHelp": "Préremplie avec les textes de store et le changelog public de la session ; les limites de Google Play s'affichent sous chaque champ.",
+  "playVisualsTitle": "Visuels",
+  "playVisualsHelp": "Google Play demande une icône 512 × 512, un visuel de présentation 1024 × 500 et au moins 2 captures. LaunchPilot prépare l'icône et le visuel à partir d'une image d'au moins 512 px, sans la déformer ; les captures viennent de l'outil Captures (format Play).",
+  "playIconPick": "Choisir l'image de l'icône",
+  "playIconTooSmall": "Image trop petite : il faut au moins 512 × 512 px.",
+  "playScreenshots": "{count, plural, =0{Aucune capture au format Play (outil Captures)} =1{1 capture : il en faut au moins 2} other{{count} captures prêtes}}",
+  "@playScreenshots": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "playFastlaneLabel": "Fastlane Google Play",
+  "playFastlaneHelp": "Prépare android/fastlane : Appfile (identifiant), Fastfile (envoi sur la piste interne en brouillon, mise à jour de la fiche) et métadonnées de « supply » (textes, icône, visuel, captures). Aucune clé n'y est écrite.",
+  "playNoPackage": "Identifiant d'application introuvable dans build.gradle : lance l'audit Android.",
+  "playPackage": "Application {package} · versionCode {code}",
+  "@playPackage": {
+    "placeholders": {
+      "package": {
+        "type": "String"
+      },
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "playExamplePackage": "Identifiant « com.example » : Google Play le refusera. Change-le avant le premier envoi.",
+  "playFastlanePrepare": "Préparer Fastlane (aperçu)",
+  "playListingIncomplete": "Remplis au moins le nom et les deux descriptions d'une langue.",
+  "playUploadTitle": "Envoi sur la piste de test interne",
+  "playFirstUpload": "Le tout premier App Bundle doit être envoyé à la main dans la Play Console (création de l'application) : Fastlane ne peut prendre le relais qu'ensuite.",
+  "playFastlaneMissing": "Fastlane n'est pas installé. Installe-le dans ton propre terminal (installation système, jamais lancée par LaunchPilot) :",
+  "playFastfileFirst": "Prépare d'abord les fichiers Fastlane ci-dessus.",
+  "playCheckAab": "Vérifier l'App Bundle",
+  "playAabReady": "App Bundle signé avec ta clé ({size}).",
+  "@playAabReady": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "playJsonKey": "Clé du compte de service (chemin du fichier .json)",
+  "playJsonKeyHelp": "Créée dans Google Cloud et autorisée dans la Play Console. LaunchPilot ne lit ni ne copie ce fichier : seul son chemin est passé à Fastlane. Garde-le hors du projet.",
+  "playJsonKeyInvalid": "Chemin absolu d'un fichier .json existant attendu.",
+  "playJsonKeyInProject": "Cette clé est dans le projet : déplace-la ailleurs ou vérifie qu'elle est ignorée par Git.",
+  "playValidateKey": "Vérifier la clé",
+  "playUploadInternal": "Envoyer sur la piste interne (brouillon)",
+  "playUploadMetadata": "Mettre à jour la fiche",
+  "playUploadNote": "La version est créée en brouillon : tu la déploies toi-même auprès des testeurs dans la Play Console. LaunchPilot ne publie jamais en production.",
+  "playRecapInternal": "Récapitulatif : envoi sur la piste interne",
+  "playRecapMetadata": "Récapitulatif : mise à jour de la fiche",
+  "playRecapPackage": "Application : {package}",
+  "@playRecapPackage": {
+    "placeholders": {
+      "package": {
+        "type": "String"
+      }
+    }
+  },
+  "playRecapVersionCode": "versionCode : {code} (ne pourra plus être réutilisé)",
+  "@playRecapVersionCode": {
+    "placeholders": {
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "playRecapInternalEffect": "L'App Bundle est envoyé à Google Play et une version brouillon est créée sur la piste de test interne.",
+  "playRecapMetadataEffect": "Les textes, l'icône, le visuel et les captures de la fiche publique sont remplacés.",
+  "contentTabAndroid": "Android",
+  "contentTabPlay": "Play Store",
+  "contentAndroidNotSelected": "La cible Android n'est pas retenue pour ce projet Flutter : coche-la dans le rapport de détection pour utiliser cet outil.",
+  "iosAreaLinux": "Machine utilisée",
+  "iosAreaPrivacy": "Confidentialité",
+  "iosNoModule": "Aucun dossier ios dans ce projet Flutter : génère-le avec « flutter create --platforms=ios . » dans ton terminal (possible sous Linux).",
+  "iosLimitsTitle": "iOS depuis Linux : ce qui est possible, et ce qui ne l'est pas",
+  "iosMacTitle": "Mac détecté : LaunchPilot prépare quand même tout pour une CI",
+  "iosLimitsCannot": "Impossible sous Linux :",
+  "iosLimit1": "construire l'application (flutter build ios / ipa) : il faut Xcode, qui n'existe que sur macOS ;",
+  "iosLimit2": "signer avec un certificat Apple et un profil de provisioning, ou ouvrir le projet dans Xcode ;",
+  "iosLimit3": "lancer le simulateur iOS ou prendre des captures dessus ;",
+  "iosLimit4": "envoyer un build sur App Store Connect (l'envoi se fait depuis la CI macOS).",
+  "iosLimitsCan": "Possible ici, avec aperçu avant écriture :",
+  "iosCan1": "auditer le projet, compléter Info.plist et le manifeste de confidentialité ;",
+  "iosCan2": "préparer la fiche App Store, les captures (outil Captures) et Fastlane ;",
+  "iosCan3": "générer la configuration GitHub Actions (runner macOS) ou Codemagic.",
+  "iosNeverFake": "LaunchPilot n'affiche jamais un build iOS réussi qu'il n'a pas vu : seul le tableau de bord de la CI fait foi.",
+  "iosAuditTitle": "Audit iOS",
+  "iosAuditHelp": "Lit Info.plist, project.pbxproj et l'icône App Store : identifiant, textes d'accès exigés par les plugins, manifeste de confidentialité, chiffrement, équipe et signature.",
+  "iosAuditRun": "Lancer l'audit iOS",
+  "iosPlistTitle": "Textes d'accès et chiffrement (Info.plist)",
+  "iosPlistRunAudit": "Lance d'abord l'audit : les textes manquants ou trop vagues apparaîtront ici, avec une proposition à adapter.",
+  "iosPlistHelp": "Chaque texte est montré à l'utilisateur au moment de la demande d'accès : explique concrètement à quoi il sert.",
+  "iosEncryption": "L'application n'utilise que le chiffrement standard (HTTPS)",
+  "iosEncryptionHelp": "Déclare ITSAppUsesNonExemptEncryption = false pour ne plus répondre à la question à chaque envoi. Désactive si l'application chiffre elle-même des données.",
+  "iosPlistLabel": "Info.plist iOS",
+  "iosPlistUnrecognized": "Info.plist n'a pas la forme attendue : modifie-le à la main.",
+  "iosPrivacyTitle": "Manifeste de confidentialité (PrivacyInfo.xcprivacy)",
+  "iosPrivacyHelp": "Préparé à partir du questionnaire juridique (ou de la détection) puis ajouté à la cible Runner du projet Xcode, comme le ferait Xcode. Les plugins déclarent eux-mêmes leurs API sensibles.",
+  "iosTracking": "L'application suit les utilisateurs entre applications (pistage publicitaire)",
+  "iosTrackingHelp": "Si oui, il faut aussi lister les domaines de pistage et demander l'autorisation ATT : complète le fichier ensuite.",
+  "iosPrivacyPrepare": "Préparer le manifeste (aperçu)",
+  "iosPrivacyLabel": "Manifeste de confidentialité iOS",
+  "iosPbxUnrecognized": "Le projet Xcode ne ressemble pas au modèle Flutter : seul le fichier est préparé. Ajoute-le à la cible Runner dans Xcode, sur un Mac.",
+  "iosPrivacyNote": "Ce manifeste est un point de départ à relire : il ne garantit pas la conformité aux règles d'Apple.",
+  "iosAppleTitle": "Ce qui reste à faire chez Apple",
+  "iosAppleHelp": "Ces étapes se font dans un navigateur, sous Linux comme ailleurs. LaunchPilot ne s'y connecte jamais.",
+  "iosApple1": "Adhérer à l'Apple Developer Program (abonnement annuel) et noter ton Team ID (Membership).",
+  "iosApple2": "Enregistrer l'identifiant de l'application (Identifiers → App IDs) avec le même bundle ID que le projet.",
+  "iosApple3": "Créer la fiche de l'application dans App Store Connect (Mes apps → +) : nom, langue, bundle ID.",
+  "iosApple4": "Créer une clé API App Store Connect (Utilisateurs et accès → Intégrations) pour la CI ; le fichier .p8 ne se télécharge qu'une fois.",
+  "iosApple5": "Remplir « Confidentialité de l'app » et la classification par âge dans App Store Connect.",
+  "iosApple6": "Après le premier build reçu, ajouter des testeurs TestFlight.",
+  "iosCertificates": "Certificat de distribution : prouve que l'application vient de ton équipe. Profil de provisioning : relie ce certificat, l'identifiant de l'application et ses droits. Avec la signature automatique, la CI les crée et les renouvelle grâce à la clé API (rôle Admin recommandé pour qu'elle puisse créer les certificats).",
+  "iosCiTitle": "Build et envoi par une CI macOS",
+  "iosCiHelp": "GitHub Actions : runner macOS 26 avec Xcode 26, signature automatique par la clé API, envoi sur TestFlight. Codemagic : signature et publication gérées par son intégration App Store Connect.",
+  "iosTeamId": "Team ID Apple",
+  "iosTeamIdHelp": "10 caractères, visible dans « Membership » du compte développeur. Ce n'est pas un secret.",
+  "iosAppleAppId": "Identifiant Apple de l'application (Apple ID)",
+  "iosAppleAppIdHelp": "Nombre visible dans App Store Connect → Informations sur l'app. Sert à calculer le numéro de build suivant.",
+  "iosCiGithubSecrets": "Secrets à créer dans GitHub (Settings → Secrets and variables → Actions) : {names}. Les valeurs ne passent jamais par LaunchPilot.",
+  "@iosCiGithubSecrets": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "iosCiCodemagicSetup": "Dans Codemagic : ajoute la clé API App Store Connect (Teams → Integrations) sous le nom « launchpilot », puis relie le dépôt.",
+  "iosCiPrepare": "Préparer la configuration CI (aperçu)",
+  "iosCiLabel": "CI iOS {provider}",
+  "@iosCiLabel": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "iosCiNote": "Le build ne démarre que lorsque tu le lances toi-même sur la CI, après avoir validé et poussé ces fichiers : LaunchPilot ne pousse jamais et ne déclenche aucun build.",
+  "iosKeyBase64": "Pour ASC_KEY_P8_BASE64, encode le fichier .p8 dans ton terminal : « base64 -w0 AuthKey_XXXXXXXXXX.p8 », puis colle le résultat dans GitHub.",
+  "asFieldName": "Nom de l'application",
+  "asFieldSubtitle": "Sous-titre",
+  "asFieldDescription": "Description",
+  "asFieldKeywords": "Mots-clés",
+  "asFieldPromo": "Texte promotionnel",
+  "asFieldReleaseNotes": "Nouveautés de cette version",
+  "asKeywordsHint": "Séparés par des virgules, sans espace ; inutile de répéter le nom.",
+  "asSaved": "Fiche App Store enregistrée dans la session.",
+  "asListingTitle": "Fiche App Store",
+  "asListingHelp": "Préremplie avec les textes de store et le changelog de la session ; les limites d'Apple s'affichent sous chaque champ.",
+  "asSupportUrl": "Adresse d'assistance (obligatoire)",
+  "asPrivacyUrl": "Adresse de la politique de confidentialité (obligatoire)",
+  "asPrivacyUrlHelp": "La politique préparée par l'outil Juridique, une fois publiée sur ton site.",
+  "asMarketingUrl": "Site de l'application (facultatif)",
+  "asCopyright": "Copyright",
+  "asScreenshotsTitle": "Captures",
+  "asScreenshotsHelp": "Elles viennent de l'outil Captures (formats iPhone 1290 × 2796 et iPad 2048 × 2732), puisque le simulateur iOS n'existe pas sous Linux. Il en faut de 1 à 10 par appareil.",
+  "asIphoneShots": "{count, plural, =0{Aucune capture iPhone : il en faut au moins une} =1{1 capture iPhone prête} other{{count} captures iPhone prêtes}}",
+  "@asIphoneShots": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "asIpadShots": "{count, plural, =0{Aucune capture iPad : nécessaire car l'application accepte l'iPad} =1{1 capture iPad prête} other{{count} captures iPad prêtes}}",
+  "@asIpadShots": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "asPrivacyTitle": "Confidentialité de l'app (étiquettes App Store)",
+  "asPrivacyHelp": "D'après le questionnaire juridique, voici les données à déclarer :",
+  "asPrivacyNone": "Aucune donnée déclarée dans le questionnaire : vérifie-le avant de répondre « Aucune donnée collectée ».",
+  "asPrivacyManual": "Ces réponses se saisissent à la main dans App Store Connect (Confidentialité de l'app). Elles doivent correspondre au manifeste de confidentialité et à la politique publiée.",
+  "asFastlaneLabel": "Fastlane App Store",
+  "asFastlaneHelp": "Prépare ios/fastlane : Appfile (identifiants publics), Fastfile (lanes metadata et beta) et métadonnées « deliver » (textes, adresses, captures). La clé App Store Connect vient des variables d'environnement de la CI : aucune clé n'est écrite.",
+  "asFastlanePrepare": "Préparer Fastlane (aperçu)",
+  "asFastlaneMissing": "Il faut le nom, la description et les mots-clés d'une langue, et des adresses d'assistance et de confidentialité en https.",
+  "asFastlaneWhere": "Ces lanes se lancent sur un Mac ou dans la CI macOS (« fastlane ios metadata ») : LaunchPilot ne les exécute pas sous Linux.",
+  "contentTabIos": "iOS",
+  "contentTabAppStore": "App Store",
+  "contentIosNotSelected": "La cible iOS n'est pas retenue pour ce projet Flutter : coche-la dans le rapport de détection pour utiliser cet outil.",
+  "chatTooLarge": "Le message et le contexte choisi sont trop longs : décoche un élément de contexte ou raccourcis la question.",
+  "chatClearTitle": "Effacer la conversation ?",
+  "chatClearMessage": "Les messages de cette session seront supprimés de LaunchPilot. Les fournisseurs d'IA gardent leurs propres journaux selon leurs conditions.",
+  "chatQuickNext": "Explique-moi simplement la prochaine étape de ma checklist.",
+  "chatQuickSimpler": "Reformule ta dernière réponse plus simplement, avec un exemple.",
+  "chatQuickError": "Que signifie l'erreur de ma dernière commande, et que puis-je essayer ?",
+  "chatQuickRemaining": "Que me reste-t-il à faire avant de publier ?",
+  "chatNoKeyTitle": "Aucune clé API pour le fournisseur choisi",
+  "chatNoKeyMessage": "Le chat utilise {provider}. Enregistre une clé dans les Paramètres (elle reste dans le trousseau du système) ou choisis un autre fournisseur.",
+  "@chatNoKeyMessage": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
+  "chatOpenSettings": "Ouvrir les paramètres",
+  "chatSafety": "Chaque question passe par un aperçu de ce qui sera envoyé, secrets masqués, puis par ta confirmation. L'agent conseille seulement : il ne peut exécuter aucune commande ni modifier aucun fichier.",
+  "chatEmpty": "Pose une question sur ton projet, une étape, une erreur ou un terme technique.",
+  "chatClear": "Effacer la conversation",
+  "chatContextTitle": "Contexte joint à la question",
+  "chatCtxProject": "Résumé du projet",
+  "chatCtxChecklist": "État de la checklist",
+  "chatCtxCommand": "Dernière commande",
+  "chatContextHelp": "Seuls les éléments cochés sont envoyés, avec les derniers échanges. Aucun fichier du projet n'est transmis.",
+  "chatModel": "Réponse de {model}",
+  "@chatModel": {
+    "placeholders": {
+      "model": {
+        "type": "String"
+      }
+    }
+  },
+  "reportStatusCompleted": "Session close",
+  "reportStatusActive": "Session en cours",
+  "reportWriteFailed": "Impossible d'écrire le rapport à cet emplacement.",
+  "reportSaved": "Rapport enregistré.",
+  "reportsHistoryTitle": "Historique des sessions",
+  "reportsProgress": "{done} / {total} étapes",
+  "@reportsProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "reportsCount": "{count, plural, =1{1 rapport exporté} other{{count} rapports exportés}}",
+  "@reportsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reportsOpen": "Aperçu du rapport",
+  "reportsDetailTitle": "Rapport : {project} {version}",
+  "@reportsDetailTitle": {
+    "placeholders": {
+      "project": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "reportsStepsLine": "Checklist : {done} étapes terminées sur {total}",
+  "@reportsStepsLine": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "reportsFilesLine": "{count, plural, =0{Aucun fichier modifié} =1{1 fichier créé ou modifié} other{{count} fichiers créés ou modifiés}}",
+  "@reportsFilesLine": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reportsCommandsLine": "{count} commande(s) exécutée(s), dont {checks} test(s) ou analyse(s)",
+  "@reportsCommandsLine": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "checks": {
+        "type": "int"
+      }
+    }
+  },
+  "reportsDeliverablesLine": "{count, plural, =0{Aucun livrable trouvé} =1{1 livrable} other{{count} livrables}}",
+  "@reportsDeliverablesLine": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "reportsAuditLine": "Audit {title} : {failures} problème(s), {warnings} avertissement(s)",
+  "@reportsAuditLine": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "failures": {
+        "type": "int"
+      },
+      "warnings": {
+        "type": "int"
+      }
+    }
+  },
+  "reportsContents": "Le rapport contient aussi les technologies et cibles, les commandes (secrets masqués), les actions restantes, la procédure manuelle de publication et le lexique.",
+  "reportsPdfHint": "Fichier HTML autonome : ouvre-le dans un navigateur, puis Imprimer → Enregistrer au format PDF pour obtenir un PDF.",
+  "reportsPrevious": "Rapports déjà exportés pour cette session",
+  "helpManualTitle": "Manuel complet",
+  "helpManualSearch": "Rechercher dans le manuel"
+}

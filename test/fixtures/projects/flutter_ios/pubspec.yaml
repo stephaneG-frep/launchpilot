@@ -1,0 +1,13 @@
+name: carnet_photo
+description: Carnet de photos géolocalisées.
+version: 1.4.0+9
+environment:
+  sdk: ^3.8.0
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.11.0
+  geolocator: ^14.0.0
+  shared_preferences: ^2.5.0
+flutter:
+  uses-material-design: true
